@@ -4,3 +4,9 @@ export interface BackgroundProps {
     interval: number
 
 }
+
+export interface PageHeaderProps {
+
+    title: string
+
+}

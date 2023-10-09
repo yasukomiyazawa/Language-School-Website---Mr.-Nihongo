@@ -29,13 +29,13 @@ const Hero = () => {
       </h1>
       <div className="flex justify-center gap-5 mt-10">
         <Link href="/ContactUs" passHref>
-          <button className="bg-red-800 border border-red-800 rounded-full px-4 py-2 text-white shadow-lg">
+          <button className="bg-red-800 border border-red-800 rounded-full px-4 py-2 text-white shadow-lg hover:bg-white hover:text-red-800">
             SIGN UP NOW
           </button>
         </Link>
 
         <Link href="/Courses" passHref>
-          <button className="bg-white border-white border rounded-full px-4 py-2 text-red-800 shadow-lg">
+          <button className="bg-white border-white border rounded-full px-4 py-2 text-red-800 shadow-lg hover:bg-red-800 hover:text-white">
             LEARN MORE
           </button>
         </Link>

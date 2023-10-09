@@ -212,11 +212,11 @@ export default function Home() {
               <ul className="font-semibold">
                 <li className="flex justify-between">
                   <span>11/2</span>
-                  <span>Mock Exam in School</span>
+                  <span>TOIEC Review</span>
                 </li>
                 <li className="flex justify-between">
                   <span>11/12</span>
-                  <span>EJU - 2nd</span>
+                  <span>TOIEC Mock Exam</span>
                 </li>
                 <li className="flex justify-between">
                   <span>11/23</span>
@@ -235,7 +235,7 @@ export default function Home() {
               <ul className="font-semibold">
                 <li className="flex justify-between">
                   <span>12/3</span>
-                  <span>JLPT - 2nd</span>
+                  <span>TOIEC Examination</span>
                 </li>
                 <li className="flex justify-between">
                   <span>12/19</span>
