@@ -9,11 +9,11 @@ import {
   faInstagram,
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
-import { Footer, Navbar } from "@/components";
+import { Footer, Hero, Navbar } from "@/components";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col py-10">
+    <main className="flex min-h-screen flex-col box-border pb-10 pt-5">
       <div className="pb-3 px-40 flex justify-around w-full border-b-2 text-xs border-b-gray-300 max-lg:hidden">
         <div className="w-full flex gap-5">
           <div className="flex items-center">
@@ -73,6 +73,8 @@ export default function Home() {
         </div>
       </div>
       <Navbar />
+
+      <Hero />
 
       <Footer />
     </main>

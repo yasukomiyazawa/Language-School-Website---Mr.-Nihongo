@@ -7,14 +7,14 @@ import "app/globals.css";
 
 const Navbar = () => {
   return (
-    <nav className="flex justify-between max-lg:hidden px-24">
+    <nav className="flex justify-between max-lg:hidden px-24 shadow-2xl sticky top-0 w-full bg-white bg-opacity-80 z-10">
       <Link href="/">
         <Image
           src="/logo.png"
           alt="Logo"
           width={250}
           height={15}
-          className="w-36 h-auto"
+          className="w-40 h-auto py-3"
         ></Image>
       </Link>
 
