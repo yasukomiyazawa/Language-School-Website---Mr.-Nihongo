@@ -21,35 +21,35 @@ const Navbar = () => {
       <div className="flex gap-10 items-center">
         <Link
           href="/"
-          className="text-lg text-gray-500 hover:font-semibold hover:text-red-700"
+          className="text-lg text-gray-500 hover:font-semibold hover:text-red-700 hover:underline hover:underline-offset-8"
           passHref
         >
           Home
         </Link>
         <Link
           href="/Courses"
-          className="text-lg text-gray-500 hover:font-semibold hover:text-red-700"
+          className="text-lg text-gray-500 hover:font-semibold hover:text-red-700 hover:underline hover:underline-offset-8"
           passHref
         >
           Courses
         </Link>
         <Link
           href="/AboutUs"
-          className="text-lg text-gray-500 hover:font-semibold hover:text-red-700"
+          className="text-lg text-gray-500 hover:font-semibold hover:text-red-700 hover:underline hover:underline-offset-8"
           passHref
         >
           About Us
         </Link>
         <Link
           href="/Blog"
-          className="text-lg text-gray-500 hover:font-semibold hover:text-red-700"
+          className="text-lg text-gray-500 hover:font-semibold hover:text-red-700 hover:underline hover:underline-offset-8"
           passHref
         >
           Blog
         </Link>
         <Link
           href="/ContactUs"
-          className="text-lg text-gray-500 hover:font-semibold hover:text-red-700"
+          className="text-lg text-gray-500 hover:font-semibold hover:text-red-700 hover:underline hover:underline-offset-8"
           passHref
         >
           Contact Us
