@@ -13,6 +13,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { Footer, Hero, Navbar } from "@/components";
 import Link from "next/link";
+import CourseCard from "@/components/CourseCard";
 
 export default function Home() {
   return (
@@ -144,7 +145,7 @@ export default function Home() {
                 </li>
                 <li className="flex justify-between">
                   <span>7/17</span>
-                  <span>Marine Day - National Holiday</span>
+                  <span>Marine Day - Holiday</span>
                 </li>
                 <li className="flex justify-between">
                   <span>7/31</span>
@@ -170,7 +171,7 @@ export default function Home() {
               <ul className="font-semibold">
                 <li className="flex justify-between">
                   <span>9/18</span>
-                  <span>Respect-for-the-Aged - National Holiday</span>
+                  <span>Respect-for-the-Aged - Holiday</span>
                 </li>
                 <li className="flex justify-between">
                   <span>9/26</span>
@@ -220,7 +221,7 @@ export default function Home() {
                 </li>
                 <li className="flex justify-between">
                   <span>11/23</span>
-                  <span>Labor Thanksgiving Day National Holiday</span>
+                  <span>Labor Thanksgiving Day - Holiday</span>
                 </li>
                 <li className="flex justify-between">
                   <span>11/24</span>
@@ -252,6 +253,42 @@ export default function Home() {
               </ul>
             </div>
           </div>
+        </div>
+      </div>
+
+      <div>
+        <h2 className="flex justify-center m-8 text-5xl font-bold text-red-800 underline underline-offset-8">
+          Featured Courses
+        </h2>
+        <div className="grid grid-cols-4 gap-5 m-8">
+          <Link href="/Courses">
+            <CourseCard
+              courseImg="/genCourse.png"
+              courseTitle="General English"
+              price="90k"
+            />
+          </Link>
+          <Link href="/Courses">
+            <CourseCard
+              courseImg="/businessCourse.png"
+              courseTitle="Business English"
+              price="100k"
+            />
+          </Link>
+          <Link href="/Courses">
+            <CourseCard
+              courseImg="/childrenCourse.png"
+              courseTitle="Children's English"
+              price="85k"
+            />
+          </Link>
+          <Link href="/Courses">
+            <CourseCard
+              courseImg="/talkCourse.png"
+              courseTitle="Pronunciation Improvement"
+              price="90k"
+            />
+          </Link>
         </div>
       </div>
 

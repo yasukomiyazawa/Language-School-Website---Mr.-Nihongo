@@ -46,7 +46,7 @@ const Footer = () => {
       <div className="col-span-1">
         <div className="flex flex-col items-center justify-center cursor-pointer">
           <h2 className="text-center mb-8 font-bold text-red-700 text-lg border-b-2 border-neutral-500">
-            Courses
+            Top Courses
           </h2>
           <ul className="flex flex-col items-center gap-2 text-gray-500">
             <li className="hover:font-semibold hover:text-red-600">
