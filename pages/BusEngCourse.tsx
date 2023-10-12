@@ -10,7 +10,7 @@ const BusEngCourse = () => {
         // instructorImg="/instructor1.png"
         // name="Lisa Jacobs"
         courseTitle="Business English"
-        coursePic="/BusinessCourse.png"
+        coursePic="/businessCourse.png"
         courseOverview="Our Business English Courses are tailored for professionals and individuals aspiring to excel 
         in the corporate world. These courses delve deeply into language skills specifically pertinent to business environments. 
         Participants gain expertise in business communication, presentations, negotiation skills, email etiquette, and industry-specific 
