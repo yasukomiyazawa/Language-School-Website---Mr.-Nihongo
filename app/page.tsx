@@ -384,28 +384,28 @@ export default function Home() {
           Featured Courses
         </h2>
         <div className="grid grid-cols-4 gap-5 m-8">
-          <Link href="/Courses">
+          <Link href="/GenEngCourse">
             <CourseCard
               courseImg="/genCourse.png"
               courseTitle="General English"
               price="90k"
             />
           </Link>
-          <Link href="/Courses">
+          <Link href="/BusEngCourse">
             <CourseCard
               courseImg="/businessCourse.png"
               courseTitle="Business English"
               price="100k"
             />
           </Link>
-          <Link href="/Courses">
+          <Link href="/ChildCourse">
             <CourseCard
               courseImg="/childrenCourse.png"
               courseTitle="Children's English"
               price="85k"
             />
           </Link>
-          <Link href="/Courses">
+          <Link href="/PICourse">
             <CourseCard
               courseImg="/talkCourse.png"
               courseTitle="Pronunciation Improvement"
