@@ -111,7 +111,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-center mt-5">
+      <div className="flex justify-center my-5">
         Developed by
         <span className="text-red-800 px-1 font-semibold">
           Yasuko Miyazawa

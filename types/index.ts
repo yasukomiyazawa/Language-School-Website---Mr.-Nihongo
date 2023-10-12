@@ -17,5 +17,15 @@ export interface CoursesCardProps {
     courseTitle: string,
     price: string,
 
+}
+
+export interface CourseInfoProps {
+
+    instructorImg?: string,
+    name?: string,
+    courseTitle: string,
+    coursePic: string,
+    courseOverview: string,
+    price:string
 
 }
