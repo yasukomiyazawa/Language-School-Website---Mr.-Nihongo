@@ -23,11 +23,11 @@ const Navbar = () => {
     <nav className="flex justify-between max-lg:hidden px-24 shadow-2xl sticky top-0 w-full bg-white bg-opacity-80 z-10">
       <Link href="/">
         <Image
-          src="/logo.png"
+          src="/logo1.png"
           alt="Logo"
           width={250}
           height={15}
-          className="w-40 h-auto py-3"
+          className="w-44 h-auto py-3"
         ></Image>
       </Link>
 
@@ -51,29 +51,34 @@ const Navbar = () => {
           {coursesBar && (
             <div className="absolute bg-white">
               <ul className="flex flex-col gap-5 px-3 mt-4 shadow-md">
-                <Link href="/GenEngCourse">
+                <Link href="/JLPTN1">
                   <li className="cursor-pointer hover:text-red-800">
-                    General English
+                    JLPT N1 Course
                   </li>
                 </Link>
-                <Link href="/BusEngCourse">
+                <Link href="/JLPTN2">
                   <li className="cursor-pointer hover:text-red-800">
-                    Business English
+                    JLPT N2 Course
                   </li>
                 </Link>
-                <Link href="/ExamPrepCourse">
+                <Link href="/JLPTN3">
                   <li className="cursor-pointer hover:text-red-800">
-                    Exam Preparation
+                    JLPT N3 Course
                   </li>
                 </Link>
-                <Link href="/CFCourse">
+                <Link href="/JLPTN4">
                   <li className="cursor-pointer hover:text-red-800">
-                    Conversation and Fluency
+                    JLPT N4 Course
+                  </li>
+                </Link>
+                <Link href="/JLPTN5">
+                  <li className="cursor-pointer hover:text-red-800">
+                    JLPT N5 Course
                   </li>
                 </Link>
                 <Link href="/ChildCourse">
                   <li className="cursor-pointer hover:text-red-800">
-                    Children's English
+                    Japanese for Children
                   </li>
                 </Link>
                 <Link href="/GWCourse">
@@ -82,13 +87,8 @@ const Navbar = () => {
                   </li>
                 </Link>
                 <Link href="/PICourse">
-                  <li className="cursor-pointer hover:text-red-800">
-                    Pronunciation Improvement
-                  </li>
-                </Link>
-                <Link href="/LCCourse">
                   <li className="cursor-pointer hover:text-red-800 mb-4">
-                    Language and Culture
+                    Pronunciation Improvement
                   </li>
                 </Link>
               </ul>

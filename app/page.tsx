@@ -307,48 +307,48 @@ export default function Home() {
           </h3>
           <div className="grid grid-rows-4">
             <Link
-              href="/Courses"
+              href="/JLPTN3"
               className="row-span-1 border border-gray-500 border-l-4 border-l-red-500 hover:bg-red-700"
             >
               <div className="flex flex-col items-center py-3 hover:text-white">
                 <span className="text-lg font-medium hover:font-semibold mb-2">
-                  Language and Culture
+                  JLPT N3
                 </span>
                 <span>Thursday, 10am - 12pm</span>
               </div>
             </Link>
 
             <Link
-              href="/Courses"
+              href="/GWCourse"
               className="row-span-1 border border-gray-500 border-l-4 border-l-red-500 hover:bg-red-700"
             >
               <div className="flex flex-col items-center py-3 hover:text-white">
                 <span className="text-lg font-medium hover:font-semibold mb-2">
-                  Pronunciation Improvement
+                  Grammar and Writing Proficiency
                 </span>
                 <span>Friday, 10am - 12pm</span>
               </div>
             </Link>
 
             <Link
-              href="/Courses"
+              href="/JLPTN5"
               className="row-span-1 border border-gray-500 border-l-4 border-l-red-500 hover:bg-red-700"
             >
               <div className="flex flex-col items-center py-3 hover:text-white">
                 <span className="text-lg font-medium hover:font-semibold mb-2">
-                  Exam Preparation
+                  JLPT N5 Course
                 </span>
                 <span>Monday, 10am - 12pm</span>
               </div>
             </Link>
 
             <Link
-              href="/Courses"
+              href="/ChildCourse"
               className="row-span-1 border border-gray-500 border-l-4 border-l-red-500 hover:bg-red-700"
             >
               <div className="flex flex-col items-center py-3 hover:text-white">
                 <span className="text-lg font-medium hover:font-semibold mb-2">
-                  Children's English
+                  Japanese for Children
                 </span>
                 <span>Tuesday, 10am - 12pm</span>
               </div>
@@ -384,24 +384,24 @@ export default function Home() {
           Featured Courses
         </h2>
         <div className="grid grid-cols-4 gap-5 m-8">
-          <Link href="/GenEngCourse">
+          <Link href="/JLPTN1">
             <CourseCard
               courseImg="/genCourse.png"
-              courseTitle="General English"
-              price="90k"
+              courseTitle="JLPT N1 Course"
+              price="110k"
             />
           </Link>
-          <Link href="/BusEngCourse">
+          <Link href="/JLPTN2">
             <CourseCard
               courseImg="/businessCourse.png"
-              courseTitle="Business English"
-              price="100k"
+              courseTitle="JLPT N2 Course"
+              price="105k"
             />
           </Link>
           <Link href="/ChildCourse">
             <CourseCard
               courseImg="/childrenCourse.png"
-              courseTitle="Children's English"
+              courseTitle="Japanese for English"
               price="85k"
             />
           </Link>
@@ -409,7 +409,7 @@ export default function Home() {
             <CourseCard
               courseImg="/talkCourse.png"
               courseTitle="Pronunciation Improvement"
-              price="90k"
+              price="95k"
             />
           </Link>
         </div>

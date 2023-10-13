@@ -16,11 +16,11 @@ const Footer = () => {
         <div className="col-span-1">
           <Link href="/">
             <Image
-              src="/logo.png"
+              src="/logo1.png"
               alt="logo"
               width={150}
               height={10}
-              className="w-36 h-auto"
+              className="w-44 h-auto mb-10"
             />
           </Link>
           <p className="text-gray-500 font-semibold">

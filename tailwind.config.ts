@@ -14,8 +14,9 @@ const config: Config = {
         //   'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
         'footer-bg':"url('/footer.png')",
         'hero-bg':"url('/heroBg.png')",
+        'hero-bg1':"url('/heroBg1.png')",
         'sched-bg':"url('/scheduleBg.png')",
-        
+
       },
     },
   },
