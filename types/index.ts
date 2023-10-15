@@ -8,6 +8,10 @@ export interface BackgroundProps {
 export interface PageHeaderProps {
 
     title: string
+    subLine: string
+    headerImg: string
+    catchPhrase: string
+    desc: string,
 
 }
 

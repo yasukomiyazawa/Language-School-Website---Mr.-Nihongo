@@ -52,42 +52,42 @@ const Navbar = () => {
             <div className="absolute bg-white">
               <ul className="flex flex-col gap-5 px-3 mt-4 shadow-md">
                 <Link href="/JLPTN1">
-                  <li className="cursor-pointer hover:text-red-800">
+                  <li className="cursor-pointer hover:font-semibold hover:text-red-800">
                     JLPT N1 Course
                   </li>
                 </Link>
                 <Link href="/JLPTN2">
-                  <li className="cursor-pointer hover:text-red-800">
+                  <li className="cursor-pointer hover:font-semibold hover:text-red-800">
                     JLPT N2 Course
                   </li>
                 </Link>
                 <Link href="/JLPTN3">
-                  <li className="cursor-pointer hover:text-red-800">
+                  <li className="cursor-pointer hover:font-semibold hover:text-red-800">
                     JLPT N3 Course
                   </li>
                 </Link>
                 <Link href="/JLPTN4">
-                  <li className="cursor-pointer hover:text-red-800">
+                  <li className="cursor-pointer hover:font-semibold hover:text-red-800">
                     JLPT N4 Course
                   </li>
                 </Link>
                 <Link href="/JLPTN5">
-                  <li className="cursor-pointer hover:text-red-800">
+                  <li className="cursor-pointer hover:font-semibold hover:text-red-800">
                     JLPT N5 Course
                   </li>
                 </Link>
                 <Link href="/ChildCourse">
-                  <li className="cursor-pointer hover:text-red-800">
+                  <li className="cursor-pointer hover:font-semibold hover:text-red-800">
                     Japanese for Children
                   </li>
                 </Link>
                 <Link href="/GWCourse">
-                  <li className="cursor-pointer hover:text-red-800">
+                  <li className="cursor-pointer hover:font-semibold hover:text-red-800">
                     Grammar and Writing Proficiency
                   </li>
                 </Link>
                 <Link href="/PICourse">
-                  <li className="cursor-pointer hover:text-red-800 mb-4">
+                  <li className="cursor-pointer hover:font-semibold hover:text-red-800 mb-4">
                     Pronunciation Improvement
                   </li>
                 </Link>

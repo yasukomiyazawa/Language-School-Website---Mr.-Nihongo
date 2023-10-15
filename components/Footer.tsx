@@ -24,7 +24,7 @@ const Footer = () => {
             />
           </Link>
           <p className="text-gray-500 font-semibold">
-            Elevate Your English: Empowering Futures, One Word at a Time!
+            Elevate Your Nihongo: Empowering Futures, One Word at a Time!
           </p>
         </div>
         <div className="col-span-1">
@@ -40,11 +40,9 @@ const Footer = () => {
                 Our Staff
               </li>
               <li className="hover:font-semibold hover:text-red-600">
-                Our Partners
+                Academic Calendar
               </li>
-              <li className="hover:font-semibold hover:text-red-600">
-                Careers
-              </li>
+              <li className="hover:font-semibold hover:text-red-600">Blogs</li>
             </ul>
           </div>
         </div>
@@ -54,18 +52,27 @@ const Footer = () => {
               Top Courses
             </h2>
             <ul className="flex flex-col items-center gap-2 text-gray-500">
+              <Link href="/JLPTN1">
+                <li className="hover:font-semibold hover:text-red-600">
+                  JLPT N1 Course
+                </li>
+              </Link>
+
+              <Link href="/JLPTN2">
+                <li className="hover:font-semibold hover:text-red-600">
+                  JLPT N2 Course
+                </li>
+              </Link>
+
+              <Link href="/JLPTN4"></Link>
               <li className="hover:font-semibold hover:text-red-600">
-                General English
+                JLPT N4 Course
               </li>
-              <li className="hover:font-semibold hover:text-red-600">
-                Business English
-              </li>
-              <li className="hover:font-semibold hover:text-red-600">
-                Exam Preparation
-              </li>
-              <li className="hover:font-semibold hover:text-red-600">
-                Conversation and Fluency
-              </li>
+              <Link href="/ChildrenCourse">
+                <li className="hover:font-semibold hover:text-red-600">
+                  Japanese for Children
+                </li>
+              </Link>
             </ul>
           </div>
         </div>

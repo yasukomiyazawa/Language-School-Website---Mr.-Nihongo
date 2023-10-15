@@ -49,7 +49,7 @@ export default function Home() {
               />
             </div>
             <div className="hover:text-red-700 cursor-pointer">
-              mreigo@gmail.com
+              mrnihongo@gmail.com
             </div>
           </div>
         </div>
@@ -363,12 +363,12 @@ export default function Home() {
           Subscribe for Exclusive Course Updates, Language Lessons, and Exciting
           Language Learning Adventures!
         </div>
-        <div className="xl:w-[800px] border border-gray-300 rounded-full py-2 px-3 flex">
+        <div className="xl:w-[800px] bg-white bg-opacity-80 border border-gray-300 rounded-full py-2 px-3 flex">
           <input
             id="email"
             type="email"
             placeholder="enter your email"
-            className="outline-none bg-transparent mr-2 w-full"
+            className="outline-none mr-2 pl-3 w-full text-black rounded-full bg-opacity-80"
           />
           <button
             className="border border-gray-200 bg-white rounded-full text-black py-1 px-4 hover:bg-gray-500 hover:text-white hover:text-medium"

@@ -16,6 +16,8 @@ const config: Config = {
         'hero-bg':"url('/heroBg.png')",
         'hero-bg1':"url('/heroBg1.png')",
         'sched-bg':"url('/scheduleBg.png')",
+        'aboutUs-bg':"url('/aboutUs.png')",
+        'aboutUs1-bg':"url('/aboutUs1.png')",
 
       },
     },
