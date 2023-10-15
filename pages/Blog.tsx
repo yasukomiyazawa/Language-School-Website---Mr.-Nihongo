@@ -16,7 +16,7 @@ const Blog = () => {
         desc="Read our blogs to enhance your understanding of Japanese language nuances, 
         cultural traditions, and language learning tips. Stay updated with our insightful articles."
       />
-      
+
       <Footer />
     </div>
   );
