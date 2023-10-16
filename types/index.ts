@@ -33,3 +33,10 @@ export interface CourseInfoProps {
     price:string
 
 }
+
+export interface FAQProps {
+
+    question: string,
+    answer: string,
+
+}

@@ -1,5 +1,5 @@
 import React from "react";
-import { Footer, Navbar } from "@/components";
+import { FAQ, Footer, Navbar } from "@/components";
 import "../app/globals.css";
 import PageHeader from "@/components/PageHeader";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -7,11 +7,22 @@ import {
   faEnvelope,
   faLocation,
   faLocationPin,
+  faMultiply,
   faPhone,
 } from "@fortawesome/free-solid-svg-icons";
-import { faLocationPinLock } from "@fortawesome/free-solid-svg-icons/faLocationPinLock";
+import { useState } from "react";
 
 const ContactUs = () => {
+  const [formPopup, setFormPopup] = useState(false);
+
+  const togglePopup = () => {
+    setFormPopup(!formPopup);
+  };
+
+  const closePopup = () => {
+    setFormPopup(false);
+  };
+
   return (
     <div className="flex min-h-screen flex-col">
       <Navbar />
@@ -129,11 +140,124 @@ const ContactUs = () => {
               </div>
             </div>
             <button
+              onClick={togglePopup}
               type="submit"
               className="mt-3 border text-white border-red-800 bg-red-800 py-2 px-4 rounded-full hover:text-red-800 hover:bg-white hover:font-semibold"
             >
               Submit
             </button>
+
+            {formPopup && (
+              <div className="px-8 border border-red-800 flex flex-col justify-center items-center gap-3 bg-red-800 p-5 text-white relative top-5">
+                <p className="font-semibold text-xl mb-2">
+                  Thank you for your inquiry!
+                </p>
+                <span>We have received your message</span>
+                <span>
+                  We will contact you through your email within the next 24
+                  hours.
+                </span>
+                <span>-Nihongo Master Group-</span>
+                <button
+                  onClick={closePopup}
+                  className="border border-white bg-white text-red-800 py-1 px-4 rounded-lg"
+                >
+                  close
+                </button>
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div className="flex justify-center text-4xl text-red-800 font-semibold mb-5">
+          Frequently Asked Questions
+        </div>
+
+        <div className="grid grid-cols-2 mx-24 gap-12 my-10">
+          <div>
+            <ul className="flex flex-col gap-5">
+              <FAQ
+                question="What courses do you offer?"
+                answer="We offer comprehensive courses for beginners to advanced
+                  learners, covering speaking, listening, reading, and writing
+                  skills. Specialized courses for JLPT preparation and
+                  cultural understanding are also available."
+              />
+
+              <FAQ
+                question="Can I join if I have no prior Japanese knowledge?"
+                answer="Absolutely! Our courses cater to beginners. We have
+                  specially designed programs to help you build a strong
+                  foundation in Japanese language and culture."
+              />
+
+              <FAQ
+                question="Can I join if I have no prior Japanese knowledge?"
+                answer="Absolutely! Our courses cater to beginners. We have
+                  specially designed programs to help you build a strong
+                  foundation in Japanese language and culture."
+              />
+
+              <FAQ
+                question="Is the curriculum tailored to individual needs?"
+                answer=" Yes, our curriculum is customizable. We assess your
+                  proficiency level and goals to create a personalized
+                  learning path, ensuring effective and engaging lessons."
+              />
+
+              <FAQ
+                question="Are there assessments to track progress?"
+                answer="Yes, we conduct regular assessments, quizzes, and mock
+                  exams, especially for JLPT preparation courses. These
+                  evaluations help you gauge your progress and areas needing
+                  improvement."
+              />
+            </ul>
+          </div>
+
+          <div>
+            <ul className="flex flex-col gap-5">
+              <FAQ
+                question="How do you ensure interactive learning?"
+                answer="We foster interactive learning through small class sizes,
+                  group activities, conversational practice, and multimedia
+                  resources. Our goal is to make language learning enjoyable
+                  and immersive."
+              />
+
+              <FAQ
+                question="What resources do you provide for self-study?"
+                answer="We offer access to a variety of study materials, online
+                  resources, and language apps. Additionally, our instructors
+                  recommend supplementary materials tailored to your learning
+                  style."
+              />
+
+              <FAQ
+                question="Can I participate in cultural events and language exchanges?"
+                answer="Absolutely! We organize cultural events, workshops, and
+                  language exchange sessions to enhance your understanding of
+                  Japanese culture and provide real-world language practice
+                  opportunities."
+              />
+
+              <FAQ
+                question="Do you assist with job or university applications in Japan?"
+                answer="Yes, we provide guidance on job applications, resume
+                  writing, and university applications in Japan. Our team
+                  supports you in showcasing your language skills effectively."
+              />
+
+              <FAQ
+                question="How can I enroll in your courses?"
+                answer="You can easily enroll through our website. Browse our course
+                  offerings, select the one that fits your goals, and follow
+                  the simple registration process. Our team is here to assist
+                  you at every step."
+              />
+            </ul>
           </div>
         </div>
       </div>
