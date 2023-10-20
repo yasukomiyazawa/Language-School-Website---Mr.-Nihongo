@@ -4,6 +4,8 @@ import Hero from "./Hero";
 import CourseCard from "./CourseCard";
 import CourseInfo from "./CourseInfo";
 import FAQ from "./FAQ";
+import PageHeader from "./PageHeader";
+import BlogCards from "./BlogCards";
 
 
 export {
@@ -13,4 +15,6 @@ export {
     CourseCard,
     CourseInfo,
     FAQ,
+    PageHeader,
+    BlogCards
 }

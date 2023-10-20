@@ -40,3 +40,13 @@ export interface FAQProps {
     answer: string,
 
 }
+
+export interface BlogContainerProps {
+
+    blogImg: string,
+    blogTitle: string, 
+    author: string, 
+    date: string, 
+    desc?: string, 
+
+}

@@ -34,13 +34,13 @@ const Footer = () => {
             </h2>
             <ul className="flex flex-col items-center gap-2 text-gray-500 cursor-pointer">
               <li className="hover:font-semibold hover:text-red-600">
-                About Us
+                <Link href="/AboutUs">About Us</Link>
               </li>
               <li className="hover:font-semibold hover:text-red-600">
                 Our Staff
               </li>
               <li className="hover:font-semibold hover:text-red-600">
-                Academic Calendar
+                <Link href="/ContactUs">FAQs</Link>
               </li>
               <li className="hover:font-semibold hover:text-red-600">Blogs</li>
             </ul>
