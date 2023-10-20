@@ -187,10 +187,10 @@ const ContactUs = () => {
               />
 
               <FAQ
-                question="Can I join if I have no prior Japanese knowledge?"
-                answer="Absolutely! Our courses cater to beginners. We have
-                  specially designed programs to help you build a strong
-                  foundation in Japanese language and culture."
+                question="Are your instructors native Japanese speakers?"
+                answer="Yes, all our instructors are native Japanese speakers with 
+                extensive teaching experience. They provide authentic language insights 
+                and cultural nuances."
               />
 
               <FAQ

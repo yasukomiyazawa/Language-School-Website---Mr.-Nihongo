@@ -37,12 +37,14 @@ const Footer = () => {
                 <Link href="/AboutUs">About Us</Link>
               </li>
               <li className="hover:font-semibold hover:text-red-600">
-                Our Staff
+                <Link href="/Teachers">Our Staff</Link>
               </li>
               <li className="hover:font-semibold hover:text-red-600">
                 <Link href="/ContactUs">FAQs</Link>
               </li>
-              <li className="hover:font-semibold hover:text-red-600">Blogs</li>
+              <li className="hover:font-semibold hover:text-red-600">
+                <Link href="/Blog">Blogs</Link>
+              </li>
             </ul>
           </div>
         </div>
@@ -64,11 +66,13 @@ const Footer = () => {
                 </li>
               </Link>
 
-              <Link href="/JLPTN4"></Link>
-              <li className="hover:font-semibold hover:text-red-600">
-                JLPT N4 Course
-              </li>
-              <Link href="/ChildrenCourse">
+              <Link href="/JLPTN4">
+                <li className="hover:font-semibold hover:text-red-600">
+                  JLPT N4 Course
+                </li>
+              </Link>
+
+              <Link href="/ChildCourse">
                 <li className="hover:font-semibold hover:text-red-600">
                   Japanese for Children
                 </li>

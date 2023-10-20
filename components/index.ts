@@ -6,6 +6,7 @@ import CourseInfo from "./CourseInfo";
 import FAQ from "./FAQ";
 import PageHeader from "./PageHeader";
 import BlogCards from "./BlogCards";
+import TeacherCard from "./TeacherCard";
 
 
 export {
@@ -16,5 +17,6 @@ export {
     CourseInfo,
     FAQ,
     PageHeader,
-    BlogCards
+    BlogCards,
+    TeacherCard
 }

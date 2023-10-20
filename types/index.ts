@@ -50,3 +50,11 @@ export interface BlogContainerProps {
     desc?: string, 
 
 }
+
+export interface TeacherCardProps {
+
+    TeacherImg: string,
+    name: string,
+    course: string,
+
+}
