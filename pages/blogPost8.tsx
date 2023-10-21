@@ -35,7 +35,7 @@ const blogPost8 = () => {
             Japanese Language Learning Apps: A Comprehensive Review"
             author="Alex Thompson"
             date="April 28, 2023"
-            blogLink=""
+            blogLink="/blogPost9"
           />
         }
         b2={
@@ -45,7 +45,7 @@ const blogPost8 = () => {
             The Beauty of Japanese Calligraphy: History and Technique"
             author="Haruki Tanaka"
             date="April 12, 2023"
-            blogLink=""
+            blogLink="/blogPost10"
           />
         }
         b3={
@@ -55,7 +55,7 @@ const blogPost8 = () => {
             Fun Ways to Practice Japanese Outside the Classroom"
             author="Amir Khan"
             date="March 25, 2023"
-            blogLink=""
+            blogLink="/blogPost11"
           />
         }
       />

@@ -38,7 +38,7 @@ const blogPost15 = () => {
             10 Common Misconceptions About Learning Japanese"
             author="Emily Davis"
             date="October 8, 2023"
-            blogLink=""
+            blogLink="/blogPost1"
           />
         }
         b2={
@@ -48,7 +48,7 @@ const blogPost15 = () => {
             How to Choose the Right Japanese Language Course for You"
             author="Hiroshi Yamamoto"
             date="September 22, 2023"
-            blogLink=""
+            blogLink="/blogPost2"
           />
         }
         b3={
@@ -58,7 +58,7 @@ const blogPost15 = () => {
             Tips for Mastering Japanese Pronunciation"
             author="Aiko Nakamura"
             date="August 5, 2023"
-            blogLink=""
+            blogLink="/blogPost2"
           />
         }
       />

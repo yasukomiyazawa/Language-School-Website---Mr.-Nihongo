@@ -38,7 +38,7 @@ const blogPost6 = () => {
             Famous Japanese Literature: A Gateway to Language and Culture"
             author="Riko Yoshida"
             date="June 26, 2023"
-            blogLink=""
+            blogLink="/blogPost7"
           />
         }
         b2={
@@ -48,7 +48,7 @@ const blogPost6 = () => {
             Survival Japanese: Essential Phrases for Travelers"
             author="Sofia Silva"
             date="May 10, 2023"
-            blogLink=""
+            blogLink="/blogPost8"
           />
         }
         b3={
@@ -58,7 +58,7 @@ const blogPost6 = () => {
             Japanese Language Learning Apps: A Comprehensive Review"
             author="Alex Thompson"
             date="April 28, 2023"
-            blogLink=""
+            blogLink="/blogPost9"
           />
         }
       />

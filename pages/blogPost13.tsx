@@ -34,7 +34,7 @@ const blogPost13 = () => {
             Mastering Kanji: Strategies for Efficient Learning"
             author="Chen Wei"
             date="January 20, 2023"
-            blogLink=""
+            blogLink="/blogPost14"
           />
         }
         b2={
@@ -44,7 +44,7 @@ const blogPost13 = () => {
             Japanese Etiquette: Navigating Social Norms with Confidence"
             author="Priya Sharma"
             date="January 8, 2023"
-            blogLink=""
+            blogLink="/blogPost15"
           />
         }
         b3={
@@ -54,7 +54,7 @@ const blogPost13 = () => {
             10 Common Misconceptions About Learning Japanese"
             author="Emily Davis"
             date="October 8, 2023"
-            blogLink=""
+            blogLink="/blogPost1"
           />
         }
       />

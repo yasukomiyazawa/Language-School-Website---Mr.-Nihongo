@@ -40,7 +40,7 @@ const blogPost10 = () => {
             Fun Ways to Practice Japanese Outside the Classroom"
             author="Amir Khan"
             date="March 25, 2023"
-            blogLink=""
+            blogLink="/blogPost11"
           />
         }
         b2={
@@ -50,7 +50,7 @@ const blogPost10 = () => {
             Overcoming Challenges in Learning Japanese: Stories of Success"
             author="Andrei Popov"
             date="March 8, 2023"
-            blogLink=""
+            blogLink="/blogPost12"
           />
         }
         b3={
@@ -60,7 +60,7 @@ const blogPost10 = () => {
             Japanese Language and Pop Culture: Bridging the Gap for Global Fans"
             author="Lara Müller"
             date="February 15, 2023"
-            blogLink=""
+            blogLink="/blogPost13"
           />
         }
       />

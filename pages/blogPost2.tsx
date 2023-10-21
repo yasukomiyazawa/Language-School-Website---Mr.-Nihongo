@@ -49,7 +49,7 @@ const blogPost2 = () => {
             blogTitle="Exploring Japanese Culture: Traditional vs. Modern Influences"
             author="Carlos Hernandez"
             date="July 20, 2023"
-            blogLink=""
+            blogLink="/blogPost4"
           />
         }
         b3={
@@ -59,7 +59,7 @@ const blogPost2 = () => {
             Top 10 Must-Visit Places in Japan for Language Enthusiasts"
             author="Aisha Patel"
             date="Jul 2, 2023"
-            blogLink=""
+            blogLink="/blogPost5"
           />
         }
       />

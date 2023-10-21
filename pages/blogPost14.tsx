@@ -34,7 +34,7 @@ const blogPost14 = () => {
             Japanese Etiquette: Navigating Social Norms with Confidence"
             author="Priya Sharma"
             date="January 8, 2023"
-            blogLink=""
+            blogLink="/blogPost15"
           />
         }
         b2={
@@ -44,7 +44,7 @@ const blogPost14 = () => {
             10 Common Misconceptions About Learning Japanese"
             author="Emily Davis"
             date="October 8, 2023"
-            blogLink=""
+            blogLink="/blogPost1"
           />
         }
         b3={
@@ -54,7 +54,7 @@ const blogPost14 = () => {
             How to Choose the Right Japanese Language Course for You"
             author="Hiroshi Yamamoto"
             date="September 22, 2023"
-            blogLink=""
+            blogLink="/blogPost2"
           />
         }
       />

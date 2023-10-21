@@ -36,7 +36,7 @@ const blogPost12 = () => {
             Japanese Language and Pop Culture: Bridging the Gap for Global Fans"
             author="Lara Müller"
             date="February 15, 2023"
-            blogLink=""
+            blogLink="/blogPost13"
           />
         }
         b2={
@@ -46,7 +46,7 @@ const blogPost12 = () => {
             Mastering Kanji: Strategies for Efficient Learning"
             author="Chen Wei"
             date="January 20, 2023"
-            blogLink=""
+            blogLink="/blogPost14"
           />
         }
         b3={
@@ -56,7 +56,7 @@ const blogPost12 = () => {
             Japanese Etiquette: Navigating Social Norms with Confidence"
             author="Priya Sharma"
             date="January 8, 2023"
-            blogLink=""
+            blogLink="/blogPost15"
           />
         }
       />

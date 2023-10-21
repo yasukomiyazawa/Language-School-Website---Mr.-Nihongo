@@ -36,7 +36,7 @@ const blogPost7 = () => {
             Survival Japanese: Essential Phrases for Travelers"
             author="Sofia Silva"
             date="May 10, 2023"
-            blogLink=""
+            blogLink="/blogPost8"
           />
         }
         b2={
@@ -46,7 +46,7 @@ const blogPost7 = () => {
             Japanese Language Learning Apps: A Comprehensive Review"
             author="Alex Thompson"
             date="April 28, 2023"
-            blogLink=""
+            blogLink="/blogPost9"
           />
         }
         b3={
@@ -56,7 +56,7 @@ const blogPost7 = () => {
             The Beauty of Japanese Calligraphy: History and Technique"
             author="Haruki Tanaka"
             date="April 12, 2023"
-            blogLink=""
+            blogLink="/blogPost10"
           />
         }
       />

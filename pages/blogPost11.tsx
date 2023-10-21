@@ -38,7 +38,7 @@ const blogPost11 = () => {
             Overcoming Challenges in Learning Japanese: Stories of Success"
             author="Andrei Popov"
             date="March 8, 2023"
-            blogLink=""
+            blogLink="/blogPost12"
           />
         }
         b2={
@@ -48,7 +48,7 @@ const blogPost11 = () => {
             Japanese Language and Pop Culture: Bridging the Gap for Global Fans"
             author="Lara Müller"
             date="February 15, 2023"
-            blogLink=""
+            blogLink="/blogPost13"
           />
         }
         b3={
@@ -58,7 +58,7 @@ const blogPost11 = () => {
             Mastering Kanji: Strategies for Efficient Learning"
             author="Chen Wei"
             date="January 20, 2023"
-            blogLink=""
+            blogLink="/blogPost14"
           />
         }
       />

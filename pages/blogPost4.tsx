@@ -40,7 +40,7 @@ const blogPost4 = () => {
             Top 10 Must-Visit Places in Japan for Language Enthusiasts"
             author="Aisha Patel"
             date="Jul 2, 2023"
-            blogLink=""
+            blogLink="/blogPost5"
           />
         }
         b2={
@@ -50,7 +50,7 @@ const blogPost4 = () => {
             How Learning Japanese Can Boost Your Career Opportunities"
             author="Aisha Patel"
             date="Jul 2, 2023"
-            blogLink=""
+            blogLink="/blogPost6"
           />
         }
         b3={
@@ -60,7 +60,7 @@ const blogPost4 = () => {
             Famous Japanese Literature: A Gateway to Language and Culture"
             author="Riko Yoshida"
             date="June 26, 2023"
-            blogLink=""
+            blogLink="/blogPost7"
           />
         }
       />

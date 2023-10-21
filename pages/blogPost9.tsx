@@ -40,7 +40,7 @@ const blogPost9 = () => {
             The Beauty of Japanese Calligraphy: History and Technique"
             author="Haruki Tanaka"
             date="April 12, 2023"
-            blogLink=""
+            blogLink="/blogPost10"
           />
         }
         b2={
@@ -50,7 +50,7 @@ const blogPost9 = () => {
             Fun Ways to Practice Japanese Outside the Classroom"
             author="Amir Khan"
             date="March 25, 2023"
-            blogLink=""
+            blogLink="/blogPost11"
           />
         }
         b3={
@@ -60,7 +60,7 @@ const blogPost9 = () => {
             Overcoming Challenges in Learning Japanese: Stories of Success"
             author="Andrei Popov"
             date="March 8, 2023"
-            blogLink=""
+            blogLink="/blogPost12"
           />
         }
       />
