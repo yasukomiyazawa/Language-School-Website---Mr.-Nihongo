@@ -38,7 +38,7 @@ const blogPost1 = () => {
             blogTitle="How to Choose the Right Japanese Language Course for You"
             author="Hiroshi Yamamoto"
             date="September 22, 2023"
-            blogLink="/blogPost1"
+            blogLink="/blogPost2"
           />
         }
         b2={
@@ -47,7 +47,7 @@ const blogPost1 = () => {
             blogTitle="Tips for Mastering Japanese Pronunciation"
             author="Aiko Nakamura"
             date="August 5, 2023"
-            blogLink="/blogPost2"
+            blogLink="/blogPost3"
           />
         }
         b3={
@@ -56,7 +56,7 @@ const blogPost1 = () => {
             blogTitle="Exploring Japanese Culture: Traditional vs. Modern Influences"
             author="Carlos Hernandez"
             date="July 20, 2023"
-            blogLink="/blogPost3"
+            blogLink="/blogPost4"
           />
         }
       />
