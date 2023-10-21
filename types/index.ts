@@ -50,7 +50,7 @@ export interface BlogContainerProps {
     author: string, 
     date: string, 
     desc?: string, 
-    blogLink?: string
+    blogLink: string
 
 }
 
