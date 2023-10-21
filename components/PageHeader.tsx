@@ -1,6 +1,7 @@
 import { PageHeaderProps } from "@/types";
 import React from "react";
 import Image from "next/image";
+import "../app/globals.css";
 
 const PageHeader = ({
   title,
@@ -29,7 +30,7 @@ const PageHeader = ({
       </div>
 
       <div className="flex w-full">
-        <div className="bg-red-800 w-1/2 ml-auto mr-28 mt-[-100px] mb-20 p-4 rounded-md shadow-xl">
+        <div className="bg-red-800 w-1/2 ml-auto mr-28 mt-[-100px] mb-20 p-4 rounded-md shadow-xl animate-fadeInUp">
           <div className="my-3">
             <h3 className="text-white text-4xl font-bold mb-5">
               {catchPhrase}

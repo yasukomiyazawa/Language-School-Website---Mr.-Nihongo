@@ -15,7 +15,7 @@ const Blog3 = () => {
         headerImg="/blogs.png"
         catchPhrase="Dive Into the World of Japanese Language and Culture"
         desc="Read our blogs to enhance your understanding of Japanese language nuances, 
-      cultural traditions, and language learning tips. Stay updated with our insightful articles."
+        cultural traditions, and language learning tips. Stay updated with our insightful articles."
       />
 
       <div>
@@ -26,6 +26,7 @@ const Blog3 = () => {
             author="Amir Khan"
             date="March 25, 2023"
             desc="Provide creative and enjoyable methods for learners to practice Japanese in their daily lives, such as language exchange events, apps, and cultural activities."
+            blogLink="/blogPost11"
           />
 
           <BlogCards
@@ -34,6 +35,7 @@ const Blog3 = () => {
             author="Andrei Popov"
             date="March 8, 2023"
             desc="Share inspiring stories of individuals who successfully overcame challenges while learning Japanese, offering motivation and tips for readers facing similar struggles."
+            blogLink="/blogPost12"
           />
 
           <BlogCards
@@ -42,6 +44,7 @@ const Blog3 = () => {
             author="Lara Müller"
             date="February 15, 2023"
             desc="Explore the influence of Japanese pop culture, including anime, manga, and J-pop, on language learners worldwide."
+            blogLink="blogPost13"
           />
 
           <BlogCards
@@ -50,6 +53,7 @@ const Blog3 = () => {
             author="Chen Wei"
             date="January 20, 2023"
             desc="Provide effective techniques and resources for mastering Kanji characters, one of the most challenging aspects of learning Japanese."
+            blogLink="/blogPost14"
           />
 
           <BlogCards
@@ -58,6 +62,7 @@ const Blog3 = () => {
             author="Priya Sharma"
             date="January 8, 2023"
             desc="Guide learners through essential Japanese etiquette, including bowing, gift-giving, and dining customs."
+            blogLink="/blogPost15"
           />
         </div>
 

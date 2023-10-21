@@ -15,6 +15,7 @@ const BlogCards = ({
   author,
   date,
   desc,
+  blogLink,
 }: BlogContainerProps) => {
   return (
     <div className="grid grid-cols-3 shadow-xl rounded-md">
@@ -51,7 +52,7 @@ const BlogCards = ({
         <div className="flex flex-col gap-5 mt-5">
           <p>{desc}</p>
           <Link
-            href="/Blog"
+            href={blogLink}
             className="text-red-800 text-medium hover:font-semibold"
           >
             Read More <FontAwesomeIcon icon={faArrowRight} />

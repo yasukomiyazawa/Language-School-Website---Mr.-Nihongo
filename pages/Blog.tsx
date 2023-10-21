@@ -29,6 +29,7 @@ const Blog = () => {
             author="Emily Davis"
             date="October 8, 2023"
             desc="Discover and debunk common myths about learning Japanese, providing encouragement and motivation for potential learners."
+            blogLink="/blogPost1"
           />
 
           <BlogCards
@@ -37,6 +38,7 @@ const Blog = () => {
             author="Hiroshi Yamamoto"
             date="September 22, 2023"
             desc="Guide readers on factors to consider when selecting a Japanese language course, including class size, teaching methods, and course duration."
+            blogLink="/blogPost2"
           />
 
           <BlogCards
@@ -45,6 +47,7 @@ const Blog = () => {
             author="Aiko Nakamura"
             date="August 5, 2023"
             desc="Offer practical advice and exercises to help learners improve their Japanese pronunciation and sound more natural when speaking."
+            blogLink="/blogPost3"
           />
 
           <BlogCards
@@ -53,6 +56,7 @@ const Blog = () => {
             author="Carlos Hernandez"
             date="July 20, 2023"
             desc="Highlight the unique blend of traditional and modern aspects of Japanese culture, encouraging cultural understanding among language learners."
+            blogLink="/blogPost4"
           />
 
           <BlogCards
@@ -61,6 +65,7 @@ const Blog = () => {
             author="Aisha Patel"
             date="July 2, 2023"
             desc="Introduce readers to iconic locations in Japan, emphasizing the linguistic and cultural experiences each place offers to language enthusiasts."
+            blogLink="/blogPost5"
           />
         </div>
 

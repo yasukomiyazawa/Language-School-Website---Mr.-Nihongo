@@ -171,7 +171,7 @@ const ContactUs = () => {
       </div>
 
       <div>
-        <div className="flex justify-center text-4xl text-red-800 font-semibold mb-5">
+        <div className="flex justify-center text-4xl text-red-800 font-semibold my-16">
           Frequently Asked Questions
         </div>
 

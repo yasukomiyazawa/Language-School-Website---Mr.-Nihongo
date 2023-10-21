@@ -7,12 +7,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faAward,
   faBookAtlas,
-  faCertificate,
   faSquareCheck,
   faTrophy,
 } from "@fortawesome/free-solid-svg-icons";
 import Link from "next/link";
-import { useState } from "react";
 
 const AboutUs = () => {
   // const Img1 = "/aboutUs1.png";

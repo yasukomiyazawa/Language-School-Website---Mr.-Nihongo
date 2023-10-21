@@ -1,3 +1,5 @@
+import { ReactNode } from "react"
+
 export interface BackgroundProps {
 
     backgrounds: string[],
@@ -48,8 +50,28 @@ export interface BlogContainerProps {
     author: string, 
     date: string, 
     desc?: string, 
+    blogLink?: string
 
 }
+
+
+export interface BlogPostProps{
+
+    blogImg: string,
+    authorImg: string,
+    authorName: string,
+    authorDesc: string,
+    title: string,
+    date: string,
+    time: string,
+    articleP1: string,
+    articleP2: string,
+    b1: ReactNode,
+    b2: ReactNode,
+    b3: ReactNode,
+
+}
+
 
 export interface TeacherCardProps {
 
@@ -58,3 +80,4 @@ export interface TeacherCardProps {
     course: string,
 
 }
+

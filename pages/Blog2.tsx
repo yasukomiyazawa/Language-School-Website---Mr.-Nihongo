@@ -26,6 +26,7 @@ const Blog2 = () => {
             author="Liam O'Connor"
             date="June 15, 2023"
             desc="Discuss the professional advantages of learning Japanese, including job opportunities, business connections, and cultural understanding in the global market."
+            blogLink="/blogPost6"
           />
 
           <BlogCards
@@ -34,6 +35,7 @@ const Blog2 = () => {
             author="Riko Yoshida"
             date="June 26, 2023"
             desc="Introduce classic Japanese literary works and authors, encouraging language learners to explore Japanese literature as a means of improving language skills and cultural understanding."
+            blogLink="/blogPost7"
           />
 
           <BlogCards
@@ -42,6 +44,7 @@ const Blog2 = () => {
             author="Sofia Silva"
             date="May 10, 2023"
             desc="Compile a list of essential Japanese phrases and expressions for travelers, focusing on practical language skills to navigate various situations in Japan."
+            blogLink="/blogPost8"
           />
 
           <BlogCards
@@ -50,6 +53,7 @@ const Blog2 = () => {
             author="Alex Thompson"
             date="April 28, 2023"
             desc="Review popular language learning apps tailored for Japanese learners, highlighting their features, pros, and cons to help readers make informed choices."
+            blogLink="/blogPost9"
           />
 
           <BlogCards
@@ -58,6 +62,7 @@ const Blog2 = () => {
             author="Haruki Tanaka"
             date="April 12, 2023"
             desc="Explore the art of Japanese calligraphy, its historical significance, and provide insights into basic techniques for interested readers."
+            blogLink="/blogPost10"
           />
         </div>
 
