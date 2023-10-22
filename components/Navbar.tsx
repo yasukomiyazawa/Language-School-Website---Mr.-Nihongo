@@ -133,7 +133,7 @@ const Navbar = () => {
         </div>
       </nav>
 
-      <nav className="flex justify-between items-center lg:hidden max-sm:px-3 max-md:px-10 px-20 shadow-2xl sticky top-0 w-full bg-white bg-opacity-80 z-10">
+      <nav className="flex justify-between items-center lg:hidden max-lg:px-2 px-20 shadow-2xl sticky top-0 w-full bg-white bg-opacity-80 z-10">
         <Link href="/">
           <Image
             src="/logo1.png"

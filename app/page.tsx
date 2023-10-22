@@ -165,7 +165,7 @@ export default function Home() {
               <span className="text-base font-medium">Halloween Party</span>
             </div>
           </div>
-          <div className="flex flex-col pt-4 max-md:pt-5">
+          <div className="flex flex-col pt-4 max-md:pt-10">
             <h3 className="pb-20 max-xl:pb-10 text-3xl font-medium text-red-800">
               Upcoming Courses
             </h3>
