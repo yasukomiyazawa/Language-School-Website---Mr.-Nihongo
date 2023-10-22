@@ -17,7 +17,7 @@ import CourseCard from "@/components/CourseCard";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col box-border pb-10 pt-5">
+    <main className="flex min-h-screen flex-col box-border pb-10 pt-5 max-lg:pt-0">
       <div className="pb-3 px-40 flex justify-around w-full border-b-2 text-xs border-b-gray-300 max-lg:hidden">
         <div className="w-full flex gap-5">
           <div className="flex items-center">
@@ -80,7 +80,7 @@ export default function Home() {
 
       <Hero />
 
-      <div className="bg-red-800 grid grid-cols-3 py-14 cursor-pointer">
+      <div className="bg-red-800 grid grid-cols-3 max-lg:grid-cols-2 py-14 cursor-pointer">
         <Link
           href="/ContactUs"
           passHref
@@ -88,7 +88,7 @@ export default function Home() {
         >
           <FontAwesomeIcon
             icon={faEnvelope}
-            className="w-10 h-10 mb-5"
+            className="w-10 h-10 mb-5 max-lg:w-7 max-lg:h-7"
             style={{ color: "white" }}
           />
           Get a Quote
@@ -100,164 +100,27 @@ export default function Home() {
         >
           <FontAwesomeIcon
             icon={faQuestion}
-            className="w-10 h-10 mb-5"
+            className="w-10 h-10 mb-5 max-lg:w-7 max-lg:h-7"
             style={{ color: "white" }}
           />
-          Frequently Asked Questions
+          FAQs
         </Link>
         <Link
           href="ContactUs"
           passHref
-          className="text-white flex flex-col items-center hover:text-yellow-500 hover:font-bold hover:underline-offset-8 hover:underline"
+          className="text-white flex flex-col items-center hover:text-yellow-500 hover:font-bold hover:underline-offset-8 hover:underline max-lg:hidden"
         >
           <FontAwesomeIcon
             icon={faPen}
-            className="w-10 h-10 mb-5"
+            className="w-10 h-10 mb-5 max-lg:w-7 max-lg:h-7"
             style={{ color: "white" }}
           />
           Sign Up for a Trial Lesson
         </Link>
       </div>
 
-      {/* <div className="bg-sched-bg bg-cover h-screen">
-        <h2 className="flex justify-center mt-28 text-5xl font-bold text-red-800 underline underline-offset-8">
-          2023 Schedule
-        </h2>
-
-        <div className="flex justify-center items-center mt-10">
-          <div className="grid grid-cols-2 gap-x-40 gap-y-8">
-            <div>
-              <h2 className="text-xl font-semibold text-red-900 mb-4 underline underline-offset-8">
-                July
-              </h2>
-              <ul className="font-semibold">
-                <li className="flex justify-between gap-52">
-                  <span>7/3</span>
-                  <span>Guidance for Further Study</span>
-                </li>
-                <li className="flex justify-between">
-                  <span>7/4</span>
-                  <span>1st Day of Summer Semester</span>
-                </li>
-                <li className="flex justify-between">
-                  <span>7/16</span>
-                  <span>J. TEST</span>
-                </li>
-                <li className="flex justify-between">
-                  <span>7/17</span>
-                  <span>Marine Day - Holiday</span>
-                </li>
-                <li className="flex justify-between">
-                  <span>7/31</span>
-                  <span>Orientation- July Students</span>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <h2 className="text-xl font-semibold text-red-900 mb-4 underline underline-offset-8">
-                August
-              </h2>
-              <ul className="font-semibold">
-                <li className="flex justify-between">
-                  <span>8/5 - 8/20</span>
-                  <span>Summer Vacation</span>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <h2 className="text-xl font-semibold text-red-900 mb-4 underline underline-offset-8">
-                September
-              </h2>
-              <ul className="font-semibold">
-                <li className="flex justify-between">
-                  <span>9/18</span>
-                  <span>Respect-for-the-Aged - Holiday</span>
-                </li>
-                <li className="flex justify-between">
-                  <span>9/26</span>
-                  <span>Final Examination</span>
-                </li>
-                <li className="flex justify-between">
-                  <span>9/27</span>
-                  <span>Mr. Eigo Speech Contents</span>
-                </li>
-                <li className="flex justify-between">
-                  <span>9/28</span>
-                  <span>Last Day of Summer Semester</span>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <h2 className="text-xl font-semibold text-red-900 mb-4 underline underline-offset-8">
-                October
-              </h2>
-              <ul className="font-semibold">
-                <li className="flex justify-between">
-                  <span>10/10</span>
-                  <span>1st Day of Autumn Semester</span>
-                </li>
-                <li className="flex justify-between">
-                  <span>10/27</span>
-                  <span>October Orientation</span>
-                </li>
-                <li className="flex justify-between">
-                  <span>10/31</span>
-                  <span>Halloween Party</span>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <h2 className="text-xl font-semibold text-red-900 mb-4 underline underline-offset-8">
-                November
-              </h2>
-              <ul className="font-semibold">
-                <li className="flex justify-between">
-                  <span>11/2</span>
-                  <span>TOIEC Review</span>
-                </li>
-                <li className="flex justify-between">
-                  <span>11/12</span>
-                  <span>TOIEC Mock Exam</span>
-                </li>
-                <li className="flex justify-between">
-                  <span>11/23</span>
-                  <span>Labor Thanksgiving Day - Holiday</span>
-                </li>
-                <li className="flex justify-between">
-                  <span>11/24</span>
-                  <span>Welcome Party</span>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <h2 className="text-xl font-semibold text-red-900 mb-4 underline underline-offset-8">
-                December
-              </h2>
-              <ul className="font-semibold">
-                <li className="flex justify-between">
-                  <span>12/3</span>
-                  <span>TOIEC Examination</span>
-                </li>
-                <li className="flex justify-between">
-                  <span>12/19</span>
-                  <span>Final Examination</span>
-                </li>
-                <li className="flex justify-between">
-                  <span>12/20</span>
-                  <span>Extracurricular Activities</span>
-                </li>
-                <li className="flex justify-between">
-                  <span>12/121</span>
-                  <span>Last Day of Autumn Semester</span>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div> */}
-
-      <div className="grid grid-cols-4 w-full h-screen gap-x-8 my-3 px-8 box-border">
-        <div className="col-span-2 pt-36">
+      <div className="grid grid-cols-4 w-full gap-x-8 my-5 xl:my-32 px-8 box-border max-xl:grid-cols-2 max-xl:grid-rows-2">
+        <div className="col-span-2 h-full max-xl:col-span-2 pt-4">
           <h3 className="pb-8 text-3xl font-medium text-red-800">
             Event Calendars
           </h3>
@@ -270,100 +133,102 @@ export default function Home() {
             className="w-full h-3/4"
           ></iframe>
         </div>
-        <div className="flex flex-col col-span-1 pt-36">
-          <h3 className="pb-20 text-3xl font-medium text-red-800">
-            Latest Events
-          </h3>
-          <div className="flex gap-3 mb-11">
-            <div className="flex flex-col items-center">
-              <span className="text-sm">OCT</span>
-              <span className="text-xl font-semibold text-gray-600">10</span>
+        <div className="flex gap-3 justify-around col-span-2 max-xl:col-span-2 max-md:grid max-md:grid-cols-1">
+          <div className="flex flex-col pt-4 max-md:pt-0">
+            <h3 className="pb-20 max-xl:pb-10 text-3xl font-medium text-red-800">
+              Latest Events
+            </h3>
+            <div className="flex gap-3 mb-11">
+              <div className="flex flex-col items-center">
+                <span className="text-sm">OCT</span>
+                <span className="text-xl font-semibold text-gray-600">10</span>
+              </div>
+              <span className="text-base font-medium">
+                1st Day of Autumn Semester
+              </span>
             </div>
-            <span className="text-base font-medium">
-              1st Day of Autumn Semester
-            </span>
-          </div>
-          <div className="flex gap-3 mb-11">
-            <div className="flex flex-col items-center">
-              <span className="text-sm">OCT</span>
-              <span className="text-xl font-semibold text-gray-600">27</span>
+            <div className="flex gap-3 mb-11">
+              <div className="flex flex-col items-center">
+                <span className="text-sm">OCT</span>
+                <span className="text-xl font-semibold text-gray-600">27</span>
+              </div>
+              <span className="text-base font-medium">
+                October Orientation <br />
+                (New Students of October Intake)
+              </span>
             </div>
-            <span className="text-base font-medium">
-              October Orientation <br />
-              (New Students of October Intake)
-            </span>
-          </div>
-          <div className="flex gap-3">
-            <div className="flex flex-col items-center">
-              <span className="text-sm">OCT</span>
-              <span className="text-xl font-semibold text-gray-600">31</span>
+            <div className="flex gap-3">
+              <div className="flex flex-col items-center">
+                <span className="text-sm">OCT</span>
+                <span className="text-xl font-semibold text-gray-600">31</span>
+              </div>
+              <span className="text-base font-medium">Halloween Party</span>
             </div>
-            <span className="text-base font-medium">Halloween Party</span>
           </div>
-        </div>
-        <div className="flex flex-col col-span-1 pt-36">
-          <h3 className="pb-20 text-3xl font-medium text-red-800">
-            Upcoming Courses
-          </h3>
-          <div className="grid grid-rows-4">
-            <Link
-              href="/JLPTN3"
-              className="row-span-1 border border-gray-500 border-l-4 border-l-red-500 hover:bg-red-700"
-            >
-              <div className="flex flex-col items-center py-3 hover:text-white">
-                <span className="text-lg font-medium hover:font-semibold mb-2">
-                  JLPT N3
-                </span>
-                <span>Thursday, 10am - 12pm</span>
-              </div>
-            </Link>
+          <div className="flex flex-col pt-4 max-md:pt-5">
+            <h3 className="pb-20 max-xl:pb-10 text-3xl font-medium text-red-800">
+              Upcoming Courses
+            </h3>
+            <div className="grid grid-rows-4">
+              <Link
+                href="/JLPTN3"
+                className="row-span-1 border border-gray-500 border-l-4 border-l-red-500 hover:bg-red-700"
+              >
+                <div className="flex flex-col items-center py-3 hover:text-white">
+                  <span className="text-lg font-medium hover:font-semibold mb-2">
+                    JLPT N3
+                  </span>
+                  <span>Thursday, 10am - 12pm</span>
+                </div>
+              </Link>
 
-            <Link
-              href="/GWCourse"
-              className="row-span-1 border border-gray-500 border-l-4 border-l-red-500 hover:bg-red-700"
-            >
-              <div className="flex flex-col items-center py-3 hover:text-white">
-                <span className="text-lg font-medium hover:font-semibold mb-2">
-                  Grammar and Writing Proficiency
-                </span>
-                <span>Friday, 10am - 12pm</span>
-              </div>
-            </Link>
+              <Link
+                href="/GWCourse"
+                className="row-span-1 border border-gray-500 border-l-4 border-l-red-500 hover:bg-red-700"
+              >
+                <div className="flex flex-col items-center py-3 hover:text-white">
+                  <span className="text-lg font-medium hover:font-semibold mb-2 px-2">
+                    Grammar and Writing Proficiency
+                  </span>
+                  <span>Friday, 10am - 12pm</span>
+                </div>
+              </Link>
 
-            <Link
-              href="/JLPTN5"
-              className="row-span-1 border border-gray-500 border-l-4 border-l-red-500 hover:bg-red-700"
-            >
-              <div className="flex flex-col items-center py-3 hover:text-white">
-                <span className="text-lg font-medium hover:font-semibold mb-2">
-                  JLPT N5 Course
-                </span>
-                <span>Monday, 10am - 12pm</span>
-              </div>
-            </Link>
+              <Link
+                href="/JLPTN5"
+                className="row-span-1 border border-gray-500 border-l-4 border-l-red-500 hover:bg-red-700"
+              >
+                <div className="flex flex-col items-center py-3 hover:text-white">
+                  <span className="text-lg font-medium hover:font-semibold mb-2">
+                    JLPT N5 Course
+                  </span>
+                  <span>Monday, 10am - 12pm</span>
+                </div>
+              </Link>
 
-            <Link
-              href="/ChildCourse"
-              className="row-span-1 border border-gray-500 border-l-4 border-l-red-500 hover:bg-red-700"
-            >
-              <div className="flex flex-col items-center py-3 hover:text-white">
-                <span className="text-lg font-medium hover:font-semibold mb-2">
-                  Japanese for Children
-                </span>
-                <span>Tuesday, 10am - 12pm</span>
-              </div>
-            </Link>
+              <Link
+                href="/ChildCourse"
+                className="row-span-1 border border-gray-500 border-l-4 border-l-red-500 hover:bg-red-700"
+              >
+                <div className="flex flex-col items-center py-3 hover:text-white">
+                  <span className="text-lg font-medium hover:font-semibold mb-2">
+                    Japanese for Children
+                  </span>
+                  <span>Tuesday, 10am - 12pm</span>
+                </div>
+              </Link>
+            </div>
           </div>
         </div>
       </div>
 
       <div className="flex flex-col items-center bg-red-800 py-16 mb-10 gap-5">
         <div className="text-3xl text-white font-bold">Subscribe Now!</div>
-        <div className="text-sm text-gray-200">
-          Subscribe for Exclusive Course Updates, Language Lessons, and Exciting
-          Language Learning Adventures!
+        <div className="flex justify-center text-center text-sm text-gray-200">
+          Subscribe for Exclusive Course Updates and Exciting Language Learning
+          Adventures!
         </div>
-        <div className="xl:w-[800px] bg-white bg-opacity-80 border border-gray-300 rounded-full py-2 px-3 flex">
+        <div className="xl:w-[800px] max-xl:w-[700px] max-lg:w-[600px] max-md:w-[500px] max-sm:w-[300px] bg-white bg-opacity-80 border border-gray-300 rounded-full py-2 px-3 flex">
           <input
             id="email"
             type="email"
@@ -383,7 +248,7 @@ export default function Home() {
         <h2 className="flex justify-center mb-11 text-4xl font-bold text-red-800 underline underline-offset-8">
           Featured Courses
         </h2>
-        <div className="grid grid-cols-4 gap-5 m-8">
+        <div className="grid grid-cols-4 gap-5 m-8 max-lg:grid-cols-2 max-lg:grid-rows-2 max-sm:grid-cols-1 max-sm:grid-rows-1">
           <Link href="/JLPTN1">
             <CourseCard
               courseImg="/genCourse.png"

@@ -23,9 +23,11 @@ import Link from "next/link";
 const Hero = () => {
   return (
     <header className="bg-hero-bg1 bg-top bg-cover h-screen">
-      <h1 className="flex flex-col text-center justify-center items-center text-6xl mt-8 text-red-900 font-bold">
+      <h1 className="flex flex-col text-center justify-center items-center text-6xl max-sm:text-3xl max-md:text-4xl max-lg:text-5xl mt-8 text-red-900 font-bold">
         Elevate Your Nihongo
-        <span className="mt-2">Empowering Futures, One Word at a Time!</span>
+        <span className="mt-2 max-sm:text-lg max-md:text-2xl max-lg:text-3xl max-xl:text-5xl">
+          Empowering Futures, One Word at a Time!
+        </span>
       </h1>
       <div className="flex justify-center gap-5 mt-96">
         <Link href="/ContactUs" passHref>

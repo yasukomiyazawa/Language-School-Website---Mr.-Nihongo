@@ -25,7 +25,7 @@ const CourseCard = ({ courseImg, courseTitle, price }: CoursesCardProps) => {
           <FontAwesomeIcon icon={faStar} style={{ color: "gray" }} />
           <FontAwesomeIcon icon={faStarHalf} style={{ color: "gray" }} />
         </div>
-        <div className="font-md border rounded-full py-1 px-2 bg-red-800 text-white">{`¥${price}/semester`}</div>
+        <div className="font-md border rounded-full py-1 px-2 bg-red-800 text-white">{`¥${price}/sem`}</div>
       </div>
     </div>
   );

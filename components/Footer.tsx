@@ -12,7 +12,7 @@ import {
 const Footer = () => {
   return (
     <>
-      <div className="grid grid-cols-4 gap-10 items-center bg-footer-bg bg-cover bg-right p-14">
+      <div className="grid grid-cols-4 gap-10 items-center bg-footer-bg bg-cover bg-right p-14 max-lg:grid-cols-2 max-lg:grid-rows-2 max-lg:gap-x-5 max-lg:gap-y-8 max-md:grid-cols-1 max-sm:grid-rows-4">
         <div className="col-span-1">
           <Link href="/">
             <Image
