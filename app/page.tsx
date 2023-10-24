@@ -169,7 +169,7 @@ export default function Home() {
             <h3 className="pb-20 max-xl:pb-10 text-3xl font-medium text-red-800">
               Upcoming Courses
             </h3>
-            <div className="grid grid-rows-4">
+            <div className="grid grid-rows-4 max-sm:mb-5">
               <Link
                 href="/JLPTN3"
                 className="row-span-1 border border-gray-500 border-l-4 border-l-red-500 hover:bg-red-700"

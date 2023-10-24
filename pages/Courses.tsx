@@ -16,8 +16,7 @@ const Courses = () => {
         headerImg="/courses.png"
         catchPhrase="Unlock Your Potential with Our Tailored Courses"
         desc="Discover a wide range of Japanese language courses designed 
-        for different proficiency levels and interests. Our experienced 
-        instructors ensure engaging and effective learning experiences."
+        for different proficiency levels and interests."
       />
 
       <div className="grid grid-cols-4 gap-6 m-6 max-lg:grid-cols-2 max-sm:grid-cols-1">
