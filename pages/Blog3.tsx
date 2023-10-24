@@ -19,7 +19,7 @@ const Blog3 = () => {
       />
 
       <div>
-        <div className="col-span-4 mx-48 mb-10 flex flex-col gap-4">
+        <div className="mx-48 mb-10 flex flex-col gap-4 max-xl:mx-20 max-lg:mx-10 max-md:mx-6">
           <BlogCards
             blogImg="/blog11.png"
             blogTitle="Fun Ways to Practice Japanese Outside the Classroom"
