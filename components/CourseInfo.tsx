@@ -20,13 +20,13 @@ const CourseInfo = ({
   price,
 }: CourseInfoProps) => {
   return (
-    <div className="w-full h-screen">
+    <div className="w-full h-screen max-xl:h-auto">
       <div className="flex flex-col bg-red-800 text-white">
-        <div className="flex justify-center text-5xl my-5 ml-5">
+        <div className="flex justify-center text-5xl my-5 ml-5 max-xl:ml-0 max-md:text-3xl">
           {courseTitle}
         </div>
         <div className="flex justify-center mb-3">
-          <div className="flex gap-4">
+          <div className="flex gap-4 max-md:grid max-md:grid-cols-2">
             <div>
               <FontAwesomeIcon
                 icon={faClock}
@@ -71,19 +71,24 @@ const CourseInfo = ({
         </div>
       </div>
 
-      <div className="grid grid-cols-2 mt-20 gap-x-8 px-11">
-        <Image
-          src={coursePic}
-          alt="course image"
-          width={800}
-          height={300}
-          className="flex justify-center"
-        />
-        <div>
+      <div className="grid grid-cols-2 max-xl:grid-cols-1 mt-20 gap-x-8 px-11">
+        <div className="max-xl:flex justify-center">
+          <Image
+            src={coursePic}
+            alt="course image"
+            width={800}
+            height={300}
+            className="flex justify-center"
+          />
+        </div>
+
+        <div className="max-xl:my-8">
           <h2 className="text-3xl font-semibold text-red-800 mb-3">Overview</h2>
-          <p className="text-justify">{courseOverview}</p>
+          <p className="text-justify max-xl:text-left max-md:text-sm">
+            {courseOverview}
+          </p>
           <div className="text-lg text-red-800 mt-5 font-semibold">
-            Course Price:{" "}
+            Course Price:
             <span className="text-gray-600 font-normal">{`¥${price}/semester`}</span>
           </div>
           <div>

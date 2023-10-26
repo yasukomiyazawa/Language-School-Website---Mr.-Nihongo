@@ -37,47 +37,51 @@ const ContactUs = () => {
         language journey."
       />
 
-      <div className="shadow-xl mx-32 mb-14">
-        <div className="grid grid-cols-3">
-          <div className="col-span-1 bg-red-800 text-white p-10 flex flex-col gap-14">
-            <h3 className="text-3xl font-semibold mb-3">Contact Info</h3>
-            <div>
-              <div className="text-lg flex">
-                <FontAwesomeIcon
-                  icon={faEnvelope}
-                  className="mr-4 w-7 h-7 text-xl mb-2"
-                />
-                <div>Email</div>
+      <div className="shadow-xl mx-32 mb-14 max-lg:mx-5">
+        <div className="grid grid-cols-3 max-xl:grid-cols-1 max-lg:grid-rows-4">
+          <div className="col-span-1 max-lg:row-span-1 bg-red-800 text-white p-10 flex flex-col gap-14 max-lg:gap-2 max-lg:h-fit">
+            <h3 className="text-3xl font-semibold mb-3 max-xl:mb-8">
+              Contact Info
+            </h3>
+            <div className="max-xl:grid max-xl:grid-cols-3 max-lg:grid-cols-1">
+              <div className="max-xl:flex max-xl:justify-center mb-12 max-xl:mb-3">
+                <div className="text-lg flex">
+                  <FontAwesomeIcon
+                    icon={faEnvelope}
+                    className="mr-4 w-7 h-7 text-xl mb-2"
+                  />
+                  <div className="max-xl:hidden">Email</div>
+                </div>
+                <div>mrnihongo@gmail.com</div>
               </div>
-              <div>mrnihongo@gmail.com</div>
-            </div>
-            <div>
-              <div className="text-lg flex">
-                <FontAwesomeIcon
-                  icon={faLocationPin}
-                  className="mr-4 w-7 h-7 text-xl mb-2"
-                />
-                <div>Location</div>
+              <div className="max-xl:flex max-xl:justify-center mb-12 max-xl:mb-3">
+                <div className="text-lg flex">
+                  <FontAwesomeIcon
+                    icon={faLocationPin}
+                    className="mr-4 w-7 h-7 text-xl mb-2"
+                  />
+                  <div className="max-xl:hidden">Location</div>
+                </div>
+                <div>Tokyo, Japan</div>
               </div>
-              <div>Tokyo, Japan</div>
-            </div>
-            <div>
-              <div className="text-lg flex">
-                <FontAwesomeIcon
-                  icon={faPhone}
-                  className="mr-4 w-7 h-7 text-xl mb-2"
-                />
-                <div>Number</div>
+              <div className="max-xl:flex max-xl:justify-center mb-12 max-xl:mb-3">
+                <div className="text-lg flex">
+                  <FontAwesomeIcon
+                    icon={faPhone}
+                    className="mr-4 w-7 h-7 text-xl mb-2"
+                  />
+                  <div className="max-xl:hidden">Number</div>
+                </div>
+                <div>+81 80 2312 7143</div>
               </div>
-              <div>+81 80 2312 7143</div>
             </div>
           </div>
 
-          <div className="col-span-2 w-full flex flex-col items-center py-10">
-            <div className="grid grid-cols-1 px-20">
+          <div className="col-span-2 max-lg:row-span-3 w-full flex flex-col items-center py-10 max-md:pb-0 max-xl:h-fit">
+            <div className="grid grid-cols-1 px-20 max-lg:px-5">
               <div className="row-span-1">
-                <div className="grid grid-cols-2 w-full gap-x-10 py-5">
-                  <div className="flex flex-col">
+                <div className="grid grid-cols-2 max-md:grid-cols-1 w-full gap-x-10 py-5 max-md:py-0 max-md:pb-4">
+                  <div className="flex flex-col max-md:pb-4">
                     <label htmlFor="fName">First Name *</label>
                     <input
                       id="fName"
@@ -97,8 +101,8 @@ const ContactUs = () => {
               </div>
 
               <div className="row-span-1">
-                <div className="grid grid-cols-2 w-full gap-x-10 py-5">
-                  <div className="flex flex-col">
+                <div className="grid grid-cols-2 max-md:grid-cols-1 w-full gap-x-10 py-5 max-md:py-0 max-md:pb-4">
+                  <div className="flex flex-col max-md:pb-4">
                     <label htmlFor="email">Email *</label>
                     <input
                       id="email"
@@ -171,11 +175,11 @@ const ContactUs = () => {
       </div>
 
       <div>
-        <div className="flex justify-center text-4xl text-red-800 font-semibold my-16">
+        <div className="flex justify-center text-4xl text-red-800 font-semibold my-16 max-lg:my-8 max-lg:text-center max-md:text-3xl">
           Frequently Asked Questions
         </div>
 
-        <div className="grid grid-cols-2 mx-24 gap-12 my-10">
+        <div className="grid grid-cols-2 max-xl:grid-cols-1 max-xl:gap-5 mx-24 max-lg:mx-5 gap-12 my-10">
           <div>
             <ul className="flex flex-col gap-5">
               <FAQ
@@ -217,7 +221,7 @@ const ContactUs = () => {
             </ul>
           </div>
 
-          <div>
+          <div className="max-sm:text-xs">
             <ul className="flex flex-col gap-5">
               <FAQ
                 question="How do you ensure interactive learning?"
